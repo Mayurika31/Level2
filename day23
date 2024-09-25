@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        background-color: bisque !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <!-- place navbar here -->
+    </header>
+    <main>
+        <center>
+         
+            <div>
+                <button class="btn btn-danger" style="color: brown;" >WELCOME TO MY WEBSITE</button>
+              <div>
+      <img
+        src=download (4).jpg
+        alt="Picture"
+        class="rounded-circle"
+      />
+      <hr>
+        <button style="border: 1px solid blue; border-radius: 50px">
+          Best Online Learning System 
+        </button>
+      </div>
+      <hr />
+      <div>
+        <button class="btn btn-warning" disabled>Join now</button>
+        <hr />
+        <div>
+            <h1>Contact us</h1>
+            <form id="formid">
+                <label for="fname" style="color: rgb(255, 94, 0);">Enter the first name</label>
+                <input type="text" id="fname" name="fname" placeholder="Name">
+        
+                <br>
+                <label for="lname" style="color: rgb(226, 116, 43);">Enter the last email</label>
+                <input type="text" id="lname" name="lname" placeholder="Email">
+                <br> 
+                
+                <input type="submit" value="submit">
+            </form>
+        </div>
+        <hr>
+        <h1> <span class="badge bg-success">Message sent!</span></h1>
+        <hr />
+        <h1> <sup class="badge bg-secondary">Thankyou for contacting us</sup></h1>
+        <hr />
+        <div class="progress">
+          <div style="width: 10px" class="progress-bar"></div>
+        </div>
+      </div>
+      <div class="spinner-border text-success"></div>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item"><a class="page-link" href="#">6</a></li>
+          <li class="page-item"><a class="page-link" href="#">7</a></li>
+          <li class="page-item"><a class="page-link" href="#">8</a></li>
+          <li class="page-item"><a class="page-link" href="#">9</a></li>
+          <li class="page-item"><a class="page-link" href="#">10</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="dropdown">
+        <button
+          type="button"
+          class="btn btn-primary dropdown-toggle"
+          data-bs-toggle="dropdown"
+        >
+          click button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Java</a></li>
+          <li><a class="dropdown-item" href="#">Html</a></li>
+          <li><a class="dropdown-item" href="#">CSS</a></li>
+        </ul>
+      </div>
+    </center>
+    </main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
