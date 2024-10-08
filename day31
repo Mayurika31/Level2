@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color:brown;">Operators</h1>
+    <h4>1.Arithmetic Operators</h4>
+    <script>
+        let a=10;
+        let b=2;
+        let c=a+b;
+        let d=a-b;
+        let e=a*b;
+        let f=a/b;
+        let g=a%b;
+        let h=a++;
+        let i=a--;
+        document.write('addition operator        '+ c+"<br>");
+      
+        document.write('subtraction operator        '+ d+"<br>");
+        
+        document.write('multiplication operator        '+ e+"<br>");
+       
+        document.write('division operator        '+f+"<br>");
+       
+        document.write('modulus operator        '+g+"<br>"); 
+       
+        document.write('increment operator        '+h+"<br>");
+        
+        document.write('decrement operator        '+i+"<br");
+    </script>
+    <hr><hr>
+    <h4>2.Comparison Operators</h4>
+    <script>
+      let x=5;
+      let y=1;
+      document.write(x==y);
+      document.write("<br>");
+      document.write(x!=y);
+      document.write("<br>");
+      document.write(x===y);
+      document.write("<br>");
+      document.write(x+y);
+      document.write("<br>");
+      document.write(x!==y);
+      document.write("<br>");
+      document.write(x>y);
+    </script>
+    <hr>
+    <h4>3.Logical Operators</h4>
+    <script>
+        let s=5;
+        let t=10;
+        document.write(s>10 || t>10);
+        document.write("<br>");
+        document.write(s>12 && t>5);
+    </script>
+    <hr>
+    <h4>4.Assignment Operators</h4>
+    <script>
+        let n=8;
+       let p=1; 
+         p-=n;
+        // p=p+n
+        document.write( 'subtraction  Assignment  '+p);
+        document.write("<br>");
+        let j=9;
+        let u=6;
+        u+=j;
+        document.write('addition Assignment    '+u);
+        document.write("<br>");
+        let mm=9;
+        let uu=6;
+        uu*=mm;
+        document.write('multiplication Assignment    '+uu);
+        document.write("<br>");
+        let vm=9;
+        let mu=6;
+        mu/=vm;
+        document.write('division Assignment    '+mu);
+        document.write("<br>");
+        let ss=9;
+        let pp=6;
+        pp%=ss;
+        document.write('modulus Assignment    '+pp);
+    </script>
+    <hr>
+    <h4>5.Ternary Operators</h4>
+    <script>
+        let m=5;
+        let v=6;
+        document.write(m>9 ? true : false);
+        document.write("<br>");
+        document.write(v>3 ? true : false );
+    </script>
+</body>
+</html>
