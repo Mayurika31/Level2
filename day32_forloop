@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 style="color: blue;">Months</h1>
+    <script>
+      let months = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "Auguest",
+        "September",
+        "Octomber",
+        "November",
+        "December",
+      ];
+      for (a = 0; a < months.length; a++) {
+        document.write(months[a] + "<br>");
+      }
+    </script>
+    <br>
+    <h1 style="color: blue;">Factorial</h1>
+    <script>
+      for (let i = 1; i <= 5; i++) {
+        let factorial = 1; 
+        for (let j = 1; j <= i; j++) {
+          factorial *= j; 
+        }
+        document.write("Factorial of " + i + " is " + factorial + "<br>");
+      }
+    </script>
+  </body>
+</html>
